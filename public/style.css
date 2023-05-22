@@ -107,6 +107,99 @@ nav > a{
  text-align: left;
 }
 
+#artikel {
+  display: flex;
+  flex-direction: column;
+}
+
+.artikel > a{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ gap: 15px;
+}
+
+.artikel{
+  padding: 10px 0 10px 0;
+}
+
+.artikel img {
+  width: 150px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.entry{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form > *{
+  border: 1px solid #B5B5B5;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.form > .button-kirim{
+  width: 100px;
+  border: none;
+  background-color: #2B83EA;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all .5s;
+}
+.form > .button-kirim:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.table{
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th,
+.table td{
+  border: 1px solid #B5B5B5;
+  padding: 5px 8px;
+}
+
+.table th {
+  background-color: #2b84eabc;
+  color: #fff;
+}
+
+.table td:nth-child(1) {
+  text-align: center;
+}
+
+.table td:nth-last-child(1) > div{
+  display: flex;
+  gap: 5px;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: #FFC107;
+  color: #000;
+  border-radius: 10px;
+}
+
+.btn-danger{
+  background-color: #DC3545;
+  color: #fff;
+}
+
+
 footer {
   position: absolute;
   bottom: 0;
